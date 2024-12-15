@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JDialog" name="jDialog1">
+      <Properties>
+        <Property name="modal" type="boolean" value="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jTabbedPane2" pref="819" max="32767" attributes="0"/>
+                      <Component id="scrollPaneWin1110" alignment="0" max="32767" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jButton2" min="-2" pref="239" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jButton6" min="-2" pref="239" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jTabbedPane2" min="-2" pref="243" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                  <Component id="scrollPaneWin1110" min="-2" pref="165" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jButton2" alignment="3" min="-2" pref="84" max="-2" attributes="0"/>
+                      <Component id="jButton6" alignment="3" min="-2" pref="84" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="65" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JTabbedPane" name="jTabbedPane2">
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="Utils.scroll.win11.ScrollPaneWin11" name="scrollPaneWin114">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Khai v&#x1ecb;">
+                    <Property name="tabTitle" type="java.lang.String" value="Khai v&#x1ecb;"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="jTable4">
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jTable4MouseClicked"/>
+                  </Events>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="scrollPaneWin114.setColumnHeader(new JViewport() {&#xa;            /**&#xa;             *&#xa;             */&#xa;            private static final long serialVersionUID = 1L;&#xa;&#xa;            @Override&#xa;            public Dimension getPreferredSize() {&#xa;                Dimension d = super.getPreferredSize();&#xa;                d.height = 32;&#xa;                return d;&#xa;            }&#xa;        });&#xa;jTable4.getTableHeader().setResizingAllowed(false);&#xa;jTable4.getTableHeader().setReorderingAllowed(false);&#xa;jTable4.setFont(new java.awt.Font(&quot;Tahoma&quot;, java.awt.Font.PLAIN, 15));&#xa;jTable4.setRowHeight(jTable4.getRowHeight() + 10);"/>
+                    <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JTable(modelTable4)"/>
+                    <AuxValue name="JavaCodeGenerator_CreateCodePre" type="java.lang.String" value="String[] colHeader4 = {&quot;M&#xe3; m&#xf3;n &#x103;n&quot;, &quot;T&#xea;n m&#xf3;n&quot;, &quot;&#x110;&#x1a1;n gi&#xe1;&quot;, &quot;S&#x1ed1; l&#x1b0;&#x1ee3;ng&quot;};&#xa;modelTable4 = new DefaultTableModel(colHeader4, 0) {&#xa;    /**&#xa;     *&#xa;     */&#xa;    private static final long serialVersionUID = 1L;&#xa;&#xa;    @Override&#xa;    public boolean isCellEditable(int row, int column) {&#xa;        return false;&#xa;    }&#xa;};"/>
+                  </AuxValues>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="Utils.scroll.win11.ScrollPaneWin11" name="scrollPaneWin115">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Ch&#xed;nh">
+                    <Property name="tabTitle" type="java.lang.String" value="Ch&#xed;nh"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="jTable5">
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jTable5MouseClicked"/>
+                  </Events>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="scrollPaneWin115.setColumnHeader(new JViewport() {&#xa;            /**&#xa;             *&#xa;             */&#xa;            private static final long serialVersionUID = 1L;&#xa;&#xa;            @Override&#xa;            public Dimension getPreferredSize() {&#xa;                Dimension d = super.getPreferredSize();&#xa;                d.height = 32;&#xa;                return d;&#xa;            }&#xa;        });&#xa;jTable5.getTableHeader().setResizingAllowed(false);&#xa;jTable5.getTableHeader().setReorderingAllowed(false);&#xa;jTable5.setFont(new java.awt.Font(&quot;Tahoma&quot;, java.awt.Font.PLAIN, 15));&#xa;jTable5.setRowHeight(jTable5.getRowHeight() + 10);"/>
+                    <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JTable(modelTable5)"/>
+                    <AuxValue name="JavaCodeGenerator_CreateCodePre" type="java.lang.String" value="String[] colHeader5 = {&quot;M&#xe3; m&#xf3;n &#x103;n&quot;, &quot;T&#xea;n m&#xf3;n&quot;, &quot;&#x110;&#x1a1;n gi&#xe1;&quot;, &quot;S&#x1ed1; l&#x1b0;&#x1ee3;ng&quot;};&#xa;modelTable5 = new DefaultTableModel(colHeader5, 0) {&#xa;    /**&#xa;     *&#xa;     */&#xa;    private static final long serialVersionUID = 1L;&#xa;&#xa;    @Override&#xa;    public boolean isCellEditable(int row, int column) {&#xa;        return false;&#xa;    }&#xa;};"/>
+                  </AuxValues>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="Utils.scroll.win11.ScrollPaneWin11" name="scrollPaneWin116">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Tr&#xe1;ng mi&#x1ec7;ng">
+                    <Property name="tabTitle" type="java.lang.String" value="Tr&#xe1;ng mi&#x1ec7;ng"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="jTable6">
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jTable6MouseClicked"/>
+                  </Events>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="scrollPaneWin116.setColumnHeader(new JViewport() {&#xa;            /**&#xa;             *&#xa;             */&#xa;            private static final long serialVersionUID = 1L;&#xa;&#xa;            @Override&#xa;            public Dimension getPreferredSize() {&#xa;                Dimension d = super.getPreferredSize();&#xa;                d.height = 32;&#xa;                return d;&#xa;            }&#xa;        });&#xa;jTable6.getTableHeader().setResizingAllowed(false);&#xa;jTable6.getTableHeader().setReorderingAllowed(false);&#xa;jTable6.setFont(new java.awt.Font(&quot;Tahoma&quot;, java.awt.Font.PLAIN, 15));&#xa;jTable6.setRowHeight(jTable6.getRowHeight() + 10);"/>
+                    <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JTable(modelTable6)"/>
+                    <AuxValue name="JavaCodeGenerator_CreateCodePre" type="java.lang.String" value="String[] colHeader6 = {&quot;M&#xe3; m&#xf3;n &#x103;n&quot;, &quot;T&#xea;n m&#xf3;n&quot;, &quot;&#x110;&#x1a1;n gi&#xe1;&quot;, &quot;S&#x1ed1; l&#x1b0;&#x1ee3;ng&quot;};&#xa;modelTable6 = new DefaultTableModel(colHeader6, 0) {&#xa;    /**&#xa;     *&#xa;     */&#xa;    private static final long serialVersionUID = 1L;&#xa;&#xa;    @Override&#xa;    public boolean isCellEditable(int row, int column) {&#xa;        return false;&#xa;    }&#xa;};"/>
+                  </AuxValues>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="Utils.scroll.win11.ScrollPaneWin11" name="scrollPaneWin117">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="N&#x1b0;&#x1edb;c">
+                    <Property name="tabTitle" type="java.lang.String" value="N&#x1b0;&#x1edb;c"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="jTable7">
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jTable7MouseClicked"/>
+                  </Events>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="scrollPaneWin117.setColumnHeader(new JViewport() {&#xa;            /**&#xa;             *&#xa;             */&#xa;            private static final long serialVersionUID = 1L;&#xa;&#xa;            @Override&#xa;            public Dimension getPreferredSize() {&#xa;                Dimension d = super.getPreferredSize();&#xa;                d.height = 32;&#xa;                return d;&#xa;            }&#xa;        });&#xa;jTable7.getTableHeader().setResizingAllowed(false);&#xa;jTable7.getTableHeader().setReorderingAllowed(false);&#xa;jTable7.setFont(new java.awt.Font(&quot;Tahoma&quot;, java.awt.Font.PLAIN, 15));&#xa;jTable7.setRowHeight(jTable7.getRowHeight() + 10);"/>
+                    <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JTable(modelTable7)"/>
+                    <AuxValue name="JavaCodeGenerator_CreateCodePre" type="java.lang.String" value="String[] colHeader7 = {&quot;M&#xe3; m&#xf3;n &#x103;n&quot;, &quot;T&#xea;n m&#xf3;n&quot;, &quot;&#x110;&#x1a1;n gi&#xe1;&quot;, &quot;S&#x1ed1; l&#x1b0;&#x1ee3;ng&quot;};&#xa;modelTable7 = new DefaultTableModel(colHeader7, 0) {&#xa;    /**&#xa;     *&#xa;     */&#xa;    private static final long serialVersionUID = 1L;&#xa;&#xa;    @Override&#xa;    public boolean isCellEditable(int row, int column) {&#xa;        return false;&#xa;    }&#xa;};"/>
+                  </AuxValues>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="Utils.scroll.win11.ScrollPaneWin11" name="scrollPaneWin118">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="M&#xf3;n nh&#x1eb9;">
+                    <Property name="tabTitle" type="java.lang.String" value="M&#xf3;n nh&#x1eb9;"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="jTable8">
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jTable8MouseClicked"/>
+                  </Events>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="scrollPaneWin118.setColumnHeader(new JViewport() {&#xa;            /**&#xa;             *&#xa;             */&#xa;            private static final long serialVersionUID = 1L;&#xa;&#xa;            @Override&#xa;            public Dimension getPreferredSize() {&#xa;                Dimension d = super.getPreferredSize();&#xa;                d.height = 32;&#xa;                return d;&#xa;            }&#xa;        });&#xa;jTable8.getTableHeader().setResizingAllowed(false);&#xa;jTable8.getTableHeader().setReorderingAllowed(false);&#xa;jTable8.setFont(new java.awt.Font(&quot;Tahoma&quot;, java.awt.Font.PLAIN, 15));&#xa;jTable8.setRowHeight(jTable8.getRowHeight() + 10);"/>
+                    <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JTable(modelTable8)"/>
+                    <AuxValue name="JavaCodeGenerator_CreateCodePre" type="java.lang.String" value="String[] colHeader8 = {&quot;M&#xe3; m&#xf3;n &#x103;n&quot;, &quot;T&#xea;n m&#xf3;n&quot;, &quot;&#x110;&#x1a1;n gi&#xe1;&quot;, &quot;S&#x1ed1; l&#x1b0;&#x1ee3;ng&quot;};&#xa;modelTable8 = new DefaultTableModel(colHeader8, 0) {&#xa;    /**&#xa;     *&#xa;     */&#xa;    private static final long serialVersionUID = 1L;&#xa;&#xa;    @Override&#xa;    public boolean isCellEditable(int row, int column) {&#xa;        return false;&#xa;    }&#xa;};"/>
+                  </AuxValues>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="Utils.scroll.win11.ScrollPaneWin11" name="scrollPaneWin1110">
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="jTable9">
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="scrollPaneWin1110.setColumnHeader(new JViewport() {&#xa;            /**&#xa;             *&#xa;             */&#xa;            private static final long serialVersionUID = 1L;&#xa;&#xa;            @Override&#xa;            public Dimension getPreferredSize() {&#xa;                Dimension d = super.getPreferredSize();&#xa;                d.height = 32;&#xa;                return d;&#xa;            }&#xa;        });&#xa;jTable9.getTableHeader().setResizingAllowed(false);&#xa;jTable9.getTableHeader().setReorderingAllowed(false);&#xa;jTable9.setFont(new java.awt.Font(&quot;Tahoma&quot;, java.awt.Font.PLAIN, 15));&#xa;jTable9.setRowHeight(jTable9.getRowHeight() + 10);"/>
+                <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JTable(modelTable9)"/>
+                <AuxValue name="JavaCodeGenerator_CreateCodePre" type="java.lang.String" value="String[] colHeader9 = {&quot;M&#xe3; m&#xf3;n &#x103;n&quot;, &quot;T&#xea;n m&#xf3;n&quot;, &quot;&#x110;&#x1a1;n gi&#xe1;&quot;, &quot;S&#x1ed1; l&#x1b0;&#x1ee3;ng&quot;,&quot;Ghi ch&#xfa;&quot;};&#xa;modelTable9 = new DefaultTableModel(colHeader9, 0) {&#xa;    /**&#xa;     *&#xa;     */&#xa;    private static final long serialVersionUID = 1L;&#xa;&#xa;    @Override&#xa;    public boolean isCellEditable(int row, int column) {&#xa;        return false;&#xa;    }&#xa;};"/>
+              </AuxValues>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="jButton2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="H&#x1ee7;y"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton6">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#x110;&#x1eb7;t"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton6ActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JDialog" name="jDialog2">
+      <Properties>
+        <Property name="modal" type="boolean" value="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="jButton4" min="-2" pref="120" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jButton8" min="-2" pref="120" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="jLabel1" pref="130" max="32767" attributes="0"/>
+                              <Component id="jLabel2" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="soLuongTxt" max="32767" attributes="0"/>
+                              <Component id="ghiChuTxt" alignment="1" pref="293" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="soLuongTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ghiChuTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jButton8" min="-2" pref="57" max="-2" attributes="0"/>
+                      <Component id="jButton4" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Nh&#x1ead;p s&#x1ed1; l&#x1b0;&#x1ee3;ng"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Nh&#x1ead;p ghi ch&#xfa;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="soLuongTxt">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="18" style="0"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="soLuongTxtActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="ghiChuTxt">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="18" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton4">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="H&#x1ee7;y"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton4ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton8">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#x110;&#x1eb7;t"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton8ActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </NonVisualComponents>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel2" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+              <Component id="jButton1" min="-2" pref="350" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jButton7" min="-2" pref="350" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jButton5" min="-2" pref="350" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jButton3" min="-2" pref="350" max="-2" attributes="0"/>
+              <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel3" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jPanel1" max="32767" attributes="0"/>
+                  <Component id="jPanel2" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jButton3" pref="76" max="32767" attributes="0"/>
+                  <Component id="jButton1" max="32767" attributes="0"/>
+                  <Component id="jButton5" alignment="1" max="32767" attributes="0"/>
+                  <Component id="jButton7" alignment="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="18" style="0"/>
+        </Property>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Image/serving-dish_1.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&#x110;&#x1eb7;t m&#xf3;n"/>
+        <Property name="horizontalTextPosition" type="int" value="0"/>
+        <Property name="verticalTextPosition" type="int" value="3"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="18" style="0"/>
+        </Property>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Image/refresh.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="L&#xe0;m m&#x1edb;i"/>
+        <Property name="horizontalTextPosition" type="int" value="0"/>
+        <Property name="verticalTextPosition" type="int" value="3"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton5">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="18" style="0"/>
+        </Property>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Image/food_1.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="H&#x1ee7;y m&#xf3;n"/>
+        <Property name="horizontalTextPosition" type="int" value="0"/>
+        <Property name="verticalTextPosition" type="int" value="3"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton5ActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder position="2" title="Danh s&#xe1;ch b&#xe0;n">
+              <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder/>
+              </Border>
+              <Font PropertyName="font" name="Segoe UI" size="18" style="1"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="scrollPaneWin111" alignment="0" pref="517" max="32767" attributes="0"/>
+                      <Component id="jTextField2" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Component id="jTextField2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Component id="scrollPaneWin111" pref="276" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="Utils.scroll.win11.ScrollPaneWin11" name="scrollPaneWin111">
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="jTable1">
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jTable1MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="scrollPaneWin111.setColumnHeader(new JViewport() {&#xa;            /**&#xa;             *&#xa;             */&#xa;            private static final long serialVersionUID = 1L;&#xa;&#xa;            @Override&#xa;            public Dimension getPreferredSize() {&#xa;                Dimension d = super.getPreferredSize();&#xa;                d.height = 32;&#xa;                return d;&#xa;            }&#xa;        });&#xa;jTable1.getTableHeader().setResizingAllowed(false);&#xa;jTable1.getTableHeader().setReorderingAllowed(false);&#xa;jTable1.setFont(new java.awt.Font(&quot;Tahoma&quot;, java.awt.Font.PLAIN, 15));&#xa;jTable1.setRowHeight(jTable1.getRowHeight() + 10);"/>
+                <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JTable(modelTable)"/>
+                <AuxValue name="JavaCodeGenerator_CreateCodePre" type="java.lang.String" value="String[] colHeader = {&quot;M&#xe3; b&#xe0;n&quot;, &quot;S&#x1ed1; b&#xe0;n&quot;};&#xa;modelTable = new DefaultTableModel(colHeader, 0) {&#xa;    /**&#xa;     *&#xa;     */&#xa;    private static final long serialVersionUID = 1L;&#xa;&#xa;    @Override&#xa;    public boolean isCellEditable(int row, int column) {&#xa;        return false;&#xa;    }&#xa;};"/>
+              </AuxValues>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JTextField" name="jTextField2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="16" style="0"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField2ActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder position="2" title="Danh s&#xe1;ch m&#xf3;n">
+              <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder/>
+              </Border>
+              <Font PropertyName="font" name="Segoe UI" size="18" style="1"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="scrollPaneWin112" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="scrollPaneWin112" pref="0" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="Utils.scroll.win11.ScrollPaneWin11" name="scrollPaneWin112">
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="jTable2">
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="scrollPaneWin112.setColumnHeader(new JViewport() {&#xa;            /**&#xa;             *&#xa;             */&#xa;            private static final long serialVersionUID = 1L;&#xa;&#xa;            @Override&#xa;            public Dimension getPreferredSize() {&#xa;                Dimension d = super.getPreferredSize();&#xa;                d.height = 32;&#xa;                return d;&#xa;            }&#xa;        });&#xa;jTable2.getTableHeader().setResizingAllowed(false);&#xa;jTable2.getTableHeader().setReorderingAllowed(false);&#xa;jTable2.setFont(new java.awt.Font(&quot;Tahoma&quot;, java.awt.Font.PLAIN, 15));&#xa;jTable2.setRowHeight(jTable2.getRowHeight() + 10);"/>
+                <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JTable(modelTable3)"/>
+                <AuxValue name="JavaCodeGenerator_CreateCodePre" type="java.lang.String" value="String[] colHeader3 = {&quot;M&#xe3; m&#xf3;n &#x103;n&quot;,&quot;T&#xea;n m&#xf3;n &#x103;n&quot;,&quot;T&#x1ed5;ng s&#x1ed1; l&#x1b0;&#x1ee3;ng&quot;};&#xa;modelTable3 = new DefaultTableModel(colHeader3, 0) {&#xa;    /**&#xa;     *&#xa;     */&#xa;    private static final long serialVersionUID = 1L;&#xa;&#xa;    @Override&#xa;    public boolean isCellEditable(int row, int column) {&#xa;        return false;&#xa;    }&#xa;};"/>
+              </AuxValues>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel3">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder position="2" title="&#x110;&#x1a1;n &#x111;&#x1eb7;t m&#xf3;n">
+              <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder/>
+              </Border>
+              <Font PropertyName="font" name="Segoe UI" size="18" style="1"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="scrollPaneWin113" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="scrollPaneWin113" min="-2" pref="264" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="Utils.scroll.win11.ScrollPaneWin11" name="scrollPaneWin113">
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="jTable3">
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="scrollPaneWin113.setColumnHeader(new JViewport() {&#xa;            /**&#xa;             *&#xa;             */&#xa;            private static final long serialVersionUID = 1L;&#xa;&#xa;            @Override&#xa;            public Dimension getPreferredSize() {&#xa;                Dimension d = super.getPreferredSize();&#xa;                d.height = 32;&#xa;                return d;&#xa;            }&#xa;        });&#xa;jTable3.getTableHeader().setResizingAllowed(false);&#xa;jTable3.getTableHeader().setReorderingAllowed(false);&#xa;jTable3.setFont(new java.awt.Font(&quot;Tahoma&quot;, java.awt.Font.PLAIN, 15));&#xa;jTable3.setRowHeight(jTable3.getRowHeight() + 10);"/>
+                <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JTable(modelTable2)"/>
+                <AuxValue name="JavaCodeGenerator_CreateCodePre" type="java.lang.String" value="String[] colHeader2 = {&quot;M&#xe3; phi&#x1ebf;u g&#x1ecd;i m&#xf3;n&quot;,&quot;M&#xe3; nh&#xe2;n vi&#xea;n&quot;,&quot;M&#xf3;n&quot;,&quot;S&#x1ed1; l&#x1b0;&#x1ee3;ng&quot;,&quot;Ghi ch&#xfa;&quot;,&quot;Tr&#x1ea1;ng th&#xe1;i&quot;,&quot;Th&#x1edd;i &#x111;i&#x1ec3;m&quot;};&#xa;modelTable2 = new DefaultTableModel(colHeader2, 0) {&#xa;    /**&#xa;     *&#xa;     */&#xa;    private static final long serialVersionUID = 1L;&#xa;&#xa;    @Override&#xa;    public boolean isCellEditable(int row, int column) {&#xa;        return false;&#xa;    }&#xa;};"/>
+              </AuxValues>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="jButton7">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="18" style="0"/>
+        </Property>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Image/notification.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Ho&#xe0;n th&#xe0;nh m&#xf3;n"/>
+        <Property name="horizontalTextPosition" type="int" value="0"/>
+        <Property name="verticalTextPosition" type="int" value="3"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton7ActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
